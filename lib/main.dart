@@ -3,6 +3,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
   const env = String.fromEnvironment('FLUTTER_ENVIRONMENT', defaultValue: 'local');
   final AppConfig config = await AppConfig.load(platform: defaultTargetPlatform, env: env);
 
