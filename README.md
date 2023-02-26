@@ -1,6 +1,6 @@
 # asset_variant_failure_repro
 
-reproduction for issue submitted to flutter:
+reproduction for https://github.com/flutter/flutter/issues/121474
 ```bash
 Error (Xcode): No file or variants found for asset: config/ios.json.
 ```
